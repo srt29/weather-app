@@ -21,7 +21,7 @@ h1 {
 }
 
 .main {
-  max-width: 100%;
+  max-width: 80%;
   margin: 50px 80px;
   padding: 50px;
   box-shadow: 20px;
@@ -29,9 +29,8 @@ h1 {
   background-color: white;
   font-family: "Roboto", sans-serif;
   font-family: "Roboto Slab", serif;
-  display: flex;
-  justify-content: space-between;
 }
+
 .enter-city {
   background-color: white;
   border: none;
@@ -55,14 +54,18 @@ h1 {
 }
 .weather-app-temperature-container {
   display: flex;
+  justify-content: end;
 }
+
 .weather-app-icon {
   width: 88px;
   height: 88px;
 }
 .weather-app-temperature {
   font-size: 60px;
+  margin: ;
 }
+
 footer {
   text-align: center;
   padding: 20px;
@@ -70,27 +73,26 @@ footer {
 
 .weather-forecast {
   display: flex;
-  justify-content: space-around;
-  margin-top: 30px;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .weather-forecast-date {
   text-align: center;
-  color: rgba(39, 33, 66, 0.4);
   font-size: 16px;
   line-height: 20px;
   margin-bottom: 10px;
 }
 
 .weather-forecast-icon {
-  width: 88px;
-  height: 88px;
+  width: 66px;
+  height: 66px;
   display: block;
   margin: 0 auto;
 }
 .weather-forecast-temperatures {
   text-align: center;
-  color: #f65282;
+  color: blue;
   margin-top: 10px;
   display: flex;
   justify-content: center;
