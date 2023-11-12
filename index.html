@@ -6,6 +6,41 @@
     <title>Weather App</title>
   </head>
   <body>
+    <header>
+      <form class="search-input" id="search-input">
+        <input
+          type="search"
+          placeholder="Enter a city"
+          class="enter-city"
+          id="city-input"
+        />
+        <input type="submit" value="search" class="search-button" />
+      </form>
+    </header>
+    <main>
+      <div class="main">
+        <div>
+          <h1 class="city" id="city"></h1>
+          <p class="data">
+            <span id="date"></span>,
+            <span id="condition"></span>
+            <br />
+            Humidity: <strong id="humidity"></strong>, Wind:
+            <strong id="speed"></strong>
+          </p>
+        </div>
+        <div class="weather-app-temperature-container">
+          <div id="icon">
+            <img
+              src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-day.png"
+              class="weather-app-icon"
+            />
+          </div>
+          <div class="weather-app-temperature" id="temperature"></div>
+          <div class="unit">°C</div>
+        </div>
+      </div>
+    </main>
     <footer>
       This project was coded by Sian Thumbadoo and is open sourced on
       <a href="https://github.com/srt29/weather-app" target="_blank"> Github</a>
