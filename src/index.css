@@ -1,1 +1,68 @@
+header {
+  border-bottom: 5px;
+  padding: 10px 0 0 0;
+}
 
+body {
+  background-color: lightblue;
+}
+footer {
+  border-top: 5px;
+  padding: 10px;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.6);
+}
+a {
+  color: blue;
+}
+h1 {
+  margin: 0;
+  font-size: 40px;
+}
+
+.main {
+  max-width: 100%;
+  margin: 50px 100px;
+  padding: 50px;
+  box-shadow: 20px;
+  border-radius: 20px;
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Slab", serif;
+  display: flex;
+  justify-content: space-between;
+}
+.enter-city {
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  width: 50%;
+  padding: 10px;
+  font-size: 15px;
+  margin-left: 100px;
+}
+.search-button {
+  background-color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  color: blue;
+  margin: 0;
+  font-size: 15px;
+}
+.data strong {
+  color: blue;
+}
+.weather-app-temperature-container {
+  display: flex;
+}
+.weather-app-icon {
+  width: 88px;
+  height: 88px;
+}
+.weather-app-temperature {
+  font-size: 60px;
+}
+footer {
+  text-align: center;
+}
