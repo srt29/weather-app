@@ -55,6 +55,7 @@ h1 {
 .weather-app-temperature-container {
   display: flex;
   justify-content: end;
+  margin-top: -120px;
 }
 
 .weather-app-icon {
@@ -75,6 +76,7 @@ footer {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  padding: 50px 0 0 0;
 }
 
 .weather-forecast-date {
